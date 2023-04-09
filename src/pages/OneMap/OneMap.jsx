@@ -62,7 +62,7 @@ const OneMap = () => {
 
 
 
-  // Initialize map when component mounts
+  // Initialize map when component mounts...
   useEffect(() => {
     fetchUsers();
     const map = new mapboxgl.Map({
